@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "lab-website",
+    "date": "2026-11-17",
+    "category": "Lab updates",
+    "title": "A new home for our laboratory online",
+    "summary": "Explore the lab’s research, people, teaching, and digital soil health tools in one place.",
+    "paragraphs": ["Our laboratory website now brings together information about the Sustainable Tropical Soil Management Lab at the University of Florida, UF/IFAS.", "The website introduces Dr. Márcio R. Nunes and our team, provides a guide to gSHAPE, and connects visitors with publications and teaching information. Project and data resource pages will grow as further details are added.", "Visit this News section for future publications, research highlights, conference participation, student achievements, and lab announcements."],
+    "source_label": "Explore the laboratory",
+    "source": "about.html"
+  },
+  {
+    "slug": "gshape-tool-guide",
+    "date": "2026-11-17",
+    "category": "Tools",
+    "title": "Meet gSHAPE: soil health assessment in your browser",
+    "summary": "Our tool guide introduces the interface, available indicator groups, and steps to get started.",
+    "paragraphs": ["gSHAPE is a web tool for context-specific soil health assessment and benchmarking. Its start screen brings together location setup, evaluation framework selection, and physical, chemical, and biological indicators.", "The new guide explains how to choose a location, select an available framework, identify measured indicators, and follow the requested inputs and units. A screenshot shows the real interface before an assessment is entered.", "The guide links directly to the live app. The screenshot is an interface example and does not represent an assessment result."],
+    "source_label": "Read the gSHAPE guide",
+    "source": "gshape.html"
+  },
+  {
+    "slug": "shape-ssa-publication",
+    "date": "2026-08-18",
+    "category": "Publications",
+    "title": "A region-specific soil health framework for Sub-Saharan Africa",
+    "summary": "A study by Biru, Nunes, and collaborators appears in Communications Earth & Environment.",
+    "paragraphs": ["The paper ‘A region-specific soil health assessment protocol and evaluation for Sub-Saharan Africa’ presents SHAPE-SSA, a regional approach to soil health interpretation.", "The author team includes Moges Kidane Biru, Marcio R. Nunes, and collaborators. The publication extends the lab’s interest in interpreting soil measurements within their environmental context.", "Read the original paper for the framework, data, methods, and results."],
+    "source_label": "Read the original publication",
+    "source": "https://doi.org/10.1038/s43247-026-03727-1"
+  },
+  {
+    "slug": "smaf-tropical-agroecosystems",
+    "date": "2025-03-16",
+    "category": "Publications",
+    "title": "Assessing SMAF transferability in tropical agroecosystems",
+    "summary": "Research with Mohkam Singh and Márcio R. Nunes examines soil management assessment across environments.",
+    "paragraphs": ["Amorim, Ashworth, Drescher, Singh, and Nunes published ‘Transferability of soil management assessment framework indices to detect best soil management strategies in tropical agroecosystems’ in Agricultural & Environmental Letters.", "The study examines whether soil health scoring approaches can detect management differences across contrasting environments. It contributes to the question of how assessment frameworks should be applied in tropical agriculture.", "The publisher’s article provides the study design and findings."],
+    "source_label": "Read the original publication",
+    "source": "https://doi.org/10.1002/ael2.70013"
+  },
+  {
+    "slug": "shape-benchmarks",
+    "date": "2024-04-11",
+    "category": "Publications",
+    "title": "SHAPEv1.0: scoring curves and peer-group benchmarks",
+    "summary": "A publication in Soil Science Society of America Journal advances soil health interpretation in context.",
+    "paragraphs": ["‘SHAPEv1.0 Scoring curves and peer group benchmarks for dynamic soil health indicators’ describes an approach for interpreting soil measurements using site-specific peer groups.", "The work forms part of Dr. Márcio R. Nunes’s research portfolio on soil health scoring and benchmarking. It builds on the SHAPE framework introduced for soil organic carbon.", "Visit the original publication to explore the scoring approach and supporting research."],
+    "source_label": "Read the original publication",
+    "source": "https://doi.org/10.1002/saj2.20668"
+  },
+  {
+    "slug": "meet-marcio-nunes",
+    "date": "2022-08-27",
+    "category": "Media",
+    "title": "From a family farm to tropical soil science",
+    "summary": "A UF/IFAS faculty feature introduces Márcio Nunes’s background and research vision.",
+    "paragraphs": ["In a UF/IFAS interview, Dr. Márcio Nunes reflects on his agricultural background and the questions that guide his soil science research.", "The feature introduces his vision for connecting research, teaching, and practical soil management. It offers a personal introduction to the director of our laboratory."],
+    "source_label": "Read the UF/IFAS feature",
+    "source": "https://blogs.ifas.ufl.edu/swsdept/2022/08/27/featured-new-faculty-marcio-nunes-assistant-professor-of-tropical-soils/"
+  }
+]

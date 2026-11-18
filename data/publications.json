@@ -1,0 +1,33 @@
+{
+  "introduction": "This selected list links to the original publications. For the full portfolio, visit the director’s scholarly profile.",
+  "items": [
+    {
+      "year": "2026",
+      "title": "A region-specific soil health assessment protocol and evaluation for Sub-Saharan Africa",
+      "authors": "Biru, M. K., Nunes, M. R., et al.",
+      "journal": "Communications Earth & Environment",
+      "url": "https://doi.org/10.1038/s43247-026-03727-1"
+    },
+    {
+      "year": "2025",
+      "title": "Transferability of soil management assessment framework indices to detect best soil management strategies in tropical agroecosystems",
+      "authors": "Amorim, H. C. S., Ashworth, A. J., Drescher, G. L., Singh, M., & Nunes, M. R.",
+      "journal": "Agricultural & Environmental Letters",
+      "url": "https://doi.org/10.1002/ael2.70013"
+    },
+    {
+      "year": "2024",
+      "title": "SHAPEv1.0 Scoring curves and peer group benchmarks for dynamic soil health indicators",
+      "authors": "Nunes, M. R., et al.",
+      "journal": "Soil Science Society of America Journal",
+      "url": "https://doi.org/10.1002/saj2.20668"
+    },
+    {
+      "year": "2021",
+      "title": "The soil health assessment protocol and evaluation applied to soil organic carbon",
+      "authors": "Nunes, M. R., et al.",
+      "journal": "Soil Science Society of America Journal",
+      "url": "https://doi.org/10.1002/saj2.20244"
+    }
+  ]
+}

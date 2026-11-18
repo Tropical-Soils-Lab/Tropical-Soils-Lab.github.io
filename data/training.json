@@ -1,0 +1,28 @@
+{
+  "eyebrow": "Training & practical skills",
+  "title": "Learn by exploring.",
+  "introduction": "Training topics are outlined below. Dates, formats, and participation details will be announced when confirmed.",
+  "note": "Training themes only; registration is not currently offered on this website.",
+  "items": [
+    {
+      "title": "Soil Laboratory Analysis",
+      "description": "Sampling, measurements, and interpretation.",
+      "icon": "flask"
+    },
+    {
+      "title": "Soil Physics",
+      "description": "Soil structure, water, and physical processes.",
+      "icon": "waves"
+    },
+    {
+      "title": "Soil Biology",
+      "description": "Biological activity and soil functions.",
+      "icon": "leaf"
+    },
+    {
+      "title": "Soil Chemistry",
+      "description": "Chemical properties and nutrient processes.",
+      "icon": "layers"
+    }
+  ]
+}

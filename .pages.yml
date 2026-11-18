@@ -1,0 +1,1266 @@
+media:
+  input: images
+  output: /images
+content:
+- name: news
+  label: News & Lab Highlights
+  type: file
+  path: data/news.json
+  format: json
+  fields:
+  - name: items
+    label: Items
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: slug
+      label: Slug
+      type: string
+      required: true
+      description: Unique lowercase words separated by hyphens. Keep this unchanged
+        after publishing to preserve article links.
+    - name: date
+      label: Date
+      type: date
+      options:
+        format: yyyy-MM-dd
+      required: true
+    - name: category
+      label: Category
+      type: select
+      options:
+        values:
+        - Lab updates
+        - Publications
+        - Tools
+        - Media
+        - Highlights
+      required: true
+    - name: title
+      label: Title
+      type: string
+      required: true
+    - name: summary
+      label: Summary
+      type: text
+    - name: paragraphs
+      label: Paragraphs
+      type: text
+      list: true
+    - name: source_label
+      label: Source label
+      type: string
+    - name: source
+      label: Source
+      type: string
+    - name: image
+      label: Image
+      type: image
+    - name: image_alt
+      label: Image alt
+      type: string
+      description: Describe the image for visitors using screen readers.
+    - name: linkedin_url
+      label: Linkedin url
+      type: string
+      description: 'For Highlights: paste the complete LinkedIn post URL. The homepage
+        shows the newest published highlight.'
+    - name: published
+      label: Published
+      type: boolean
+      default: false
+- name: team
+  label: Team
+  type: file
+  path: data/team.json
+  format: json
+  fields:
+  - name: note
+    label: Note
+    type: text
+  - name: groups
+    label: Groups
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: members
+      label: Members
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{name}'
+      fields:
+      - name: name
+        label: Name
+        type: string
+      - name: role
+        label: Role
+        type: string
+      - name: title
+        label: Title
+        type: string
+      - name: photo
+        label: Photo
+        type: image
+      - name: photo_alt
+        label: Photo alt
+        type: string
+      - name: research_interests
+        label: Research interests
+        type: string
+      - name: email
+        label: Email
+        type: string
+      - name: office
+        label: Office
+        type: string
+      - name: biography
+        label: Biography
+        type: rich-text
+        options:
+          format: html
+          switcher: false
+          media: false
+      - name: current_projects
+        label: Current projects
+        type: string
+      - name: profile_url
+        label: Profile url
+        type: string
+- name: publications
+  label: Publications
+  type: file
+  path: data/publications.json
+  format: json
+  fields:
+  - name: introduction
+    label: Introduction
+    type: text
+  - name: items
+    label: Items
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: year
+      label: Year
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: authors
+      label: Authors
+      type: string
+    - name: journal
+      label: Journal
+      type: string
+    - name: url
+      label: Url
+      type: string
+- name: projects
+  label: Projects
+  type: file
+  path: data/projects.json
+  format: json
+  fields:
+  - name: note
+    label: Note
+    type: text
+  - name: items
+    label: Items
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: theme
+      label: Theme
+      type: string
+    - name: description
+      label: Description
+      type: text
+    - name: placeholder
+      label: Placeholder
+      type: boolean
+    - name: image
+      label: Image
+      type: image
+    - name: collaborators
+      label: Collaborators
+      type: string
+    - name: duration
+      label: Duration
+      type: string
+    - name: funding
+      label: Funding
+      type: string
+    - name: impact
+      label: Impact
+      type: string
+- name: courses
+  label: Courses
+  type: file
+  path: data/courses.json
+  format: json
+  fields:
+  - name: eyebrow
+    label: Eyebrow
+    type: string
+  - name: title
+    label: Title
+    type: string
+  - name: introduction
+    label: Introduction
+    type: text
+  - name: items
+    label: Items
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: code
+      label: Code
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: description
+      label: Description
+      type: text
+    - name: icon
+      label: Icon
+      type: select
+      options:
+        values:
+        - leaf
+        - book
+        - layers
+        - flask
+        - grid
+        - people
+        - pin
+        - news
+        - award
+        - globe
+        - waves
+    - name: url
+      label: Url
+      type: string
+- name: training
+  label: Training
+  type: file
+  path: data/training.json
+  format: json
+  fields:
+  - name: eyebrow
+    label: Eyebrow
+    type: string
+  - name: title
+    label: Title
+    type: string
+  - name: introduction
+    label: Introduction
+    type: text
+  - name: note
+    label: Note
+    type: text
+  - name: items
+    label: Items
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: title
+      label: Title
+      type: string
+    - name: description
+      label: Description
+      type: text
+    - name: icon
+      label: Icon
+      type: select
+      options:
+        values:
+        - leaf
+        - book
+        - layers
+        - flask
+        - grid
+        - people
+        - pin
+        - news
+        - award
+        - globe
+        - waves
+- name: tools
+  label: Tools & gSHAPE guide
+  type: file
+  path: data/tools.json
+  format: json
+  fields:
+  - name: note
+    label: Note
+    type: text
+  - name: items
+    label: Items
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{name}'
+    fields:
+    - name: id
+      label: Id
+      type: string
+      readonly: true
+    - name: name
+      label: Name
+      type: string
+    - name: tagline
+      label: Tagline
+      type: string
+    - name: description
+      label: Description
+      type: text
+    - name: url
+      label: Url
+      type: string
+    - name: guide_url
+      label: Guide url
+      type: string
+    - name: guide_label
+      label: Guide label
+      type: string
+    - name: launch_label
+      label: Launch label
+      type: string
+    - name: image
+      label: Image
+      type: image
+    - name: image_alt
+      label: Image alt
+      type: string
+      description: Describe the image for visitors using screen readers.
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: heading
+      label: Heading
+      type: string
+    - name: paragraphs
+      label: Paragraphs
+      type: text
+      list: true
+    - name: steps_eyebrow
+      label: Steps eyebrow
+      type: string
+    - name: steps_title
+      label: Steps title
+      type: string
+    - name: steps_introduction
+      label: Steps introduction
+      type: text
+    - name: steps
+      label: Steps
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{title}'
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: description
+        label: Description
+        type: text
+    - name: interface_eyebrow
+      label: Interface eyebrow
+      type: string
+    - name: interface_title
+      label: Interface title
+      type: string
+    - name: interface_description
+      label: Interface description
+      type: text
+    - name: caption
+      label: Caption
+      type: text
+    - name: indicators
+      label: Indicators
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{title}'
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: description
+        label: Description
+        type: text
+      - name: icon
+        label: Icon
+        type: select
+        options:
+          values:
+          - leaf
+          - book
+          - layers
+          - flask
+          - grid
+          - people
+          - pin
+          - news
+          - award
+          - globe
+          - waves
+      - name: link_label
+        label: Link label
+        type: string
+- name: home
+  label: Homepage
+  type: file
+  path: data/home.json
+  format: json
+  fields:
+  - name: title
+    label: Title
+    type: string
+  - name: description
+    label: Description
+    type: text
+  - name: hero
+    label: Hero
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: accent
+      label: Accent
+      type: string
+    - name: description
+      label: Description
+      type: text
+    - name: image
+      label: Image
+      type: image
+    - name: image_alt
+      label: Image alt
+      type: string
+      description: Describe the image for visitors using screen readers.
+    - name: credit
+      label: Credit
+      type: string
+    - name: actions
+      label: Actions
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{label}'
+      fields:
+      - name: label
+        label: Label
+        type: string
+      - name: url
+        label: Url
+        type: string
+      - name: style
+        label: Style
+        type: select
+        options:
+          values:
+          - link
+          - link-arrow
+          - link-arrow horizontal
+          - button
+          - button light
+          - button white
+    - name: director_link
+      label: Director link
+      type: object
+      fields:
+      - name: label
+        label: Label
+        type: string
+      - name: url
+        label: Url
+        type: string
+      - name: style
+        label: Style
+        type: select
+        options:
+          values:
+          - link
+          - link-arrow
+          - link-arrow horizontal
+          - button
+          - button light
+          - button white
+  - name: themes
+    label: Themes
+    type: string
+    list: true
+  - name: activities
+    label: Activities
+    type: string
+    list: true
+  - name: mission
+    label: Mission
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: body
+      label: Body
+      type: rich-text
+      options:
+        format: html
+        switcher: false
+        media: false
+    - name: leader_prefix
+      label: Leader prefix
+      type: string
+  - name: tool
+    label: Tool
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: body
+      label: Body
+      type: rich-text
+      options:
+        format: html
+        switcher: false
+        media: false
+    - name: tool_id
+      label: Tool id
+      type: string
+    - name: actions
+      label: Actions
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{label}'
+      fields:
+      - name: label
+        label: Label
+        type: string
+      - name: url
+        label: Url
+        type: string
+      - name: style
+        label: Style
+        type: select
+        options:
+          values:
+          - link
+          - link-arrow
+          - link-arrow horizontal
+          - button
+          - button light
+          - button white
+  - name: news
+    label: News
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: all_link
+      label: All link
+      type: object
+      fields:
+      - name: label
+        label: Label
+        type: string
+      - name: url
+        label: Url
+        type: string
+      - name: style
+        label: Style
+        type: select
+        options:
+          values:
+          - link
+          - link-arrow
+          - link-arrow horizontal
+          - button
+          - button light
+          - button white
+- name: biography
+  label: Director biography
+  type: file
+  path: data/biography.json
+  format: json
+  fields:
+  - name: photo
+    label: Photo
+    type: image
+  - name: photo_alt
+    label: Photo alt
+    type: string
+  - name: eyebrow
+    label: Eyebrow
+    type: string
+  - name: title
+    label: Title
+    type: string
+  - name: themes
+    label: Themes
+    type: string
+  - name: body
+    label: Body
+    type: rich-text
+    options:
+      format: html
+      switcher: false
+      media: false
+  - name: profile_links
+    label: Profile links
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{label}'
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: url
+      label: Url
+      type: string
+    - name: style
+      label: Style
+      type: select
+      options:
+        values:
+        - link
+        - link-arrow
+        - link-arrow horizontal
+        - button
+        - button light
+        - button white
+  - name: career_eyebrow
+    label: Career eyebrow
+    type: string
+  - name: employment_title
+    label: Employment title
+    type: string
+  - name: employment
+    label: Employment
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: date
+      label: Date
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: body
+      label: Body
+      type: rich-text
+      options:
+        format: html
+        switcher: false
+        media: false
+  - name: academic_title
+    label: Academic title
+    type: string
+  - name: academic_body
+    label: Academic body
+    type: rich-text
+    options:
+      format: html
+      switcher: false
+      media: false
+  - name: teaching_link
+    label: Teaching link
+    type: object
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: url
+      label: Url
+      type: string
+    - name: style
+      label: Style
+      type: select
+      options:
+        values:
+        - link
+        - link-arrow
+        - link-arrow horizontal
+        - button
+        - button light
+        - button white
+  - name: education_title
+    label: Education title
+    type: string
+  - name: education
+    label: Education
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: date
+      label: Date
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: body
+      label: Body
+      type: rich-text
+      options:
+        format: html
+        switcher: false
+        media: false
+  - name: source_link
+    label: Source link
+    type: object
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: url
+      label: Url
+      type: string
+    - name: style
+      label: Style
+      type: select
+      options:
+        values:
+        - link
+        - link-arrow
+        - link-arrow horizontal
+        - button
+        - button light
+        - button white
+  - name: achievements_title
+    label: Achievements title
+    type: string
+  - name: achievements_body
+    label: Achievements body
+    type: rich-text
+    options:
+      format: html
+      switcher: false
+      media: false
+  - name: publications_link
+    label: Publications link
+    type: object
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: url
+      label: Url
+      type: string
+    - name: style
+      label: Style
+      type: select
+      options:
+        values:
+        - link
+        - link-arrow
+        - link-arrow horizontal
+        - button
+        - button light
+        - button white
+  - name: editorial_title
+    label: Editorial title
+    type: string
+  - name: editorial_body
+    label: Editorial body
+    type: rich-text
+    options:
+      format: html
+      switcher: false
+      media: false
+- name: pages
+  label: Page introductions & content
+  type: file
+  path: data/pages.json
+  format: json
+  fields:
+  - name: items
+    label: Items
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{title}'
+    fields:
+    - name: slug
+      label: Slug
+      type: string
+      readonly: true
+    - name: title
+      label: Title
+      type: string
+    - name: heading
+      label: Heading
+      type: string
+    - name: description
+      label: Description
+      type: text
+    - name: category
+      label: Category
+      type: string
+    - name: sections
+      label: Sections
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{title}'
+      fields:
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
+        options:
+          format: html
+          switcher: false
+          media: false
+      - name: cards
+        label: Cards
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: '{title}'
+        fields:
+        - name: title
+          label: Title
+          type: string
+        - name: body
+          label: Body
+          type: rich-text
+          options:
+            format: html
+            switcher: false
+            media: false
+        - name: icon
+          label: Icon
+          type: select
+          options:
+            values:
+            - leaf
+            - book
+            - layers
+            - flask
+            - grid
+            - people
+            - pin
+            - news
+            - award
+            - globe
+            - waves
+        - name: links
+          label: Links
+          type: object
+          list:
+            collapsible:
+              collapsed: true
+              summary: '{label}'
+          fields:
+          - name: label
+            label: Label
+            type: string
+          - name: url
+            label: Url
+            type: string
+          - name: style
+            label: Style
+            type: select
+            options:
+              values:
+              - link
+              - link-arrow
+              - link-arrow horizontal
+              - button
+              - button light
+              - button white
+        - name: eyebrow
+          label: Eyebrow
+          type: string
+        - name: image
+          label: Image
+          type: image
+        - name: image_alt
+          label: Image alt
+          type: string
+          description: Describe the image for visitors using screen readers.
+      - name: layout
+        label: Layout
+        type: select
+        options:
+          values:
+          - grid
+          - two-columns
+          - intro
+          - notice
+          - article
+      - name: theme
+        label: Theme
+        type: select
+        options:
+          values:
+          - ''
+          - soft
+          - dark
+      - name: eyebrow
+        label: Eyebrow
+        type: string
+      - name: links
+        label: Links
+        type: string
+        list: true
+- name: site
+  label: Site settings & contact
+  type: file
+  path: data/site.json
+  format: json
+  fields:
+  - name: lab_name
+    label: Lab name
+    type: string
+  - name: short_name
+    label: Short name
+    type: string
+  - name: university
+    label: University
+    type: string
+  - name: department
+    label: Department
+    type: string
+  - name: department_url
+    label: Department url
+    type: string
+  - name: director
+    label: Director
+    type: string
+  - name: director_title
+    label: Director title
+    type: string
+  - name: email
+    label: Email
+    type: string
+  - name: phone
+    label: Phone
+    type: string
+  - name: phone_url
+    label: Phone url
+    type: string
+  - name: office
+    label: Office
+    type: string
+  - name: address
+    label: Address
+    type: string
+    list: true
+  - name: location
+    label: Location
+    type: string
+  - name: faculty_url
+    label: Faculty url
+    type: string
+  - name: scholar_url
+    label: Scholar url
+    type: string
+  - name: orcid_url
+    label: Orcid url
+    type: string
+  - name: app_url
+    label: App url
+    type: string
+  - name: navigation
+    label: Navigation
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{label}'
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: url
+      label: Url
+      type: string
+    - name: children
+      label: Children
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: '{label}'
+      fields:
+      - name: label
+        label: Label
+        type: string
+      - name: url
+        label: Url
+        type: string
+      - name: style
+        label: Style
+        type: select
+        options:
+          values:
+          - link
+          - link-arrow
+          - link-arrow horizontal
+          - button
+          - button light
+          - button white
+  - name: footer_links
+    label: Footer links
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{label}'
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: url
+      label: Url
+      type: string
+    - name: style
+      label: Style
+      type: select
+      options:
+        values:
+        - link
+        - link-arrow
+        - link-arrow horizontal
+        - button
+        - button light
+        - button white
+  - name: legal_links
+    label: Legal links
+    type: object
+    list:
+      collapsible:
+        collapsed: true
+        summary: '{label}'
+    fields:
+    - name: label
+      label: Label
+      type: string
+    - name: url
+      label: Url
+      type: string
+    - name: style
+      label: Style
+      type: select
+      options:
+        values:
+        - link
+        - link-arrow
+        - link-arrow horizontal
+        - button
+        - button light
+        - button white
+  - name: contact
+    label: Contact
+    type: object
+    fields:
+    - name: eyebrow
+      label: Eyebrow
+      type: string
+    - name: title
+      label: Title
+      type: string
+    - name: body
+      label: Body
+      type: rich-text
+      options:
+        format: html
+        switcher: false
+        media: false
+    - name: details_label
+      label: Details label
+      type: string
+    - name: office_label
+      label: Office label
+      type: string
+    - name: address_label
+      label: Address label
+      type: string
+    - name: faculty_label
+      label: Faculty label
+      type: string
+    - name: location_label
+      label: Location label
+      type: string
+    - name: department_label
+      label: Department label
+      type: string
+  - name: labels
+    label: Labels
+    type: object
+    fields:
+    - name: skip
+      label: Skip
+      type: string
+    - name: menu
+      label: Menu
+      type: string
+    - name: navigation
+      label: Navigation
+      type: string
+    - name: find_us
+      label: Find us
+      type: string
+    - name: explore
+      label: Explore
+      type: string
+    - name: directed_by
+      label: Directed by
+      type: string
+    - name: read_article
+      label: Read article
+      type: string
+    - name: lab_highlight
+      label: Lab highlight
+      type: string
+    - name: linkedin
+      label: Linkedin
+      type: string
+    - name: previous
+      label: Previous
+      type: string
+    - name: next
+      label: Next
+      type: string
+    - name: page
+      label: Page
+      type: string
+    - name: of
+      label: Of
+      type: string
+    - name: all
+      label: All
+      type: string
+    - name: news
+      label: News
+      type: string
+    - name: no_news
+      label: No news
+      type: string
+    - name: back_news
+      label: Back news
+      type: string
+    - name: newer
+      label: Newer
+      type: string
+    - name: older
+      label: Older
+      type: string
+    - name: article_navigation
+      label: Article navigation
+      type: string
+    - name: filter_news
+      label: Filter news
+      type: string
+    - name: read_paper
+      label: Read paper
+      type: string
+    - name: scholar
+      label: Scholar
+      type: string
+    - name: biography
+      label: Biography
+      type: rich-text
+      options:
+        format: html
+        switcher: false
+        media: false
+    - name: leadership
+      label: Leadership
+      type: string
+    - name: project_outline
+      label: Project outline
+      type: string
+    - name: collaborators
+      label: Collaborators
+      type: string
+    - name: duration
+      label: Duration
+      type: string
+    - name: funding
+      label: Funding
+      type: string
+    - name: impact
+      label: Impact
+      type: string
+    - name: to_add
+      label: To add
+      type: string
+    - name: site_error
+      label: Site error
+      type: string
+    - name: missing_article
+      label: Missing article
+      type: string
+    - name: copyright
+      label: Copyright
+      type: string
+    - name: source
+      label: Source
+      type: string
+    - name: course_information
+      label: Course information
+      type: string

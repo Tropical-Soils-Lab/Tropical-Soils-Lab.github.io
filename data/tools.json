@@ -10,7 +10,7 @@
       "guide_url": "gshape.html",
       "guide_label": "Tool guide",
       "launch_label": "Launch gSHAPE",
-      "image": "/images/gshape-interface.jpg",
+      "image": "/images/gshape-interface.svg",
       "image_alt": "gSHAPE interface with location, evaluation framework, and soil indicator selections",
       "eyebrow": "Why it was developed",
       "heading": "Make soil measurements more meaningful.",

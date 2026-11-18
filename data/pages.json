@@ -1,0 +1,365 @@
+{
+  "items": [
+    {
+      "slug": "credits",
+      "title": "Credits",
+      "heading": "Image & content credits",
+      "description": "Sources used to prepare this laboratory website.",
+      "category": "Credits",
+      "sections": [
+        {
+          "title": "",
+          "body": "<h2>Photography</h2><p>Agricultural landscape photograph by <a href=\"https://unsplash.com/photos/a-close-up-of-a-green-field-rtQ9NNtsNs4\">Daniel Boberg on Unsplash</a>, used under the <a href=\"https://unsplash.com/license\">Unsplash License</a>. This is illustrative agricultural imagery, not a photograph of a lab research site.</p><p>Portrait of Dr. Márcio R. Nunes: <a href=\"https://soils.ifas.ufl.edu/people/faculty/marcio-nunes/\">UF/IFAS faculty profile</a>.</p><p>gSHAPE interface screenshot: laboratory web application, captured November 17, 2026.</p><h2>Research &amp; biography</h2><p>Career and education are based on the <a href=\"https://blogs.ifas.ufl.edu/swsdept/2022/08/27/featured-new-faculty-marcio-nunes-assistant-professor-of-tropical-soils/\">UF/IFAS faculty feature</a>. Faculty affiliation, courses, and contact details come from the <a href=\"https://soils.ifas.ufl.edu/people/faculty/marcio-nunes/\">UF faculty profile</a>. Publication titles and identifiers link to the original publishers; the 2026 SHAPE-SSA publication date is recorded in the publisher’s Crossref metadata.</p><h2>Content still being developed</h2><p>Project outlines, data resources, detailed editorial activities, training dates, and individual member profiles are marked where additional details are needed. The team roster was supplied by the laboratory.</p>",
+          "cards": [],
+          "layout": "article",
+          "theme": "",
+          "eyebrow": "",
+          "links": []
+        }
+      ]
+    },
+    {
+      "slug": "publications",
+      "title": "Publications",
+      "heading": "Selected publications",
+      "description": "Research from the lab and Dr. Márcio R. Nunes’s wider research portfolio.",
+      "category": "Research / Publications",
+      "sections": []
+    },
+    {
+      "slug": "opportunities",
+      "title": "Opportunities",
+      "heading": "Grow your ideas with us.",
+      "description": "Explore research connections, learning, and collaboration in tropical soil science.",
+      "category": "Opportunities",
+      "sections": [
+        {
+          "title": "",
+          "body": "",
+          "cards": [
+            {
+              "title": "Graduate research",
+              "body": "<p>Interested in soil health and tropical soil management? Contact the director to ask about research fit and future opportunities.</p>",
+              "icon": "book",
+              "links": [
+                {
+                  "label": "Contact the director",
+                  "url": "mailto:{email}",
+                  "style": "link"
+                }
+              ],
+              "eyebrow": "",
+              "image": "",
+              "image_alt": "Graduate research"
+            },
+            {
+              "title": "Visiting collaboration",
+              "body": "<p>For visiting scholar and research collaboration enquiries, introduce your interests and the work you would like to pursue.</p>",
+              "icon": "globe",
+              "links": [
+                {
+                  "label": "Start a conversation",
+                  "url": "mailto:{email}",
+                  "style": "link"
+                }
+              ],
+              "eyebrow": "",
+              "image": "",
+              "image_alt": "Visiting collaboration"
+            },
+            {
+              "title": "Training & learning",
+              "body": "<p>Explore the lab’s teaching and practical training themes. Announcements will provide details when offerings are confirmed.</p>",
+              "icon": "flask",
+              "links": [
+                {
+                  "label": "Explore learning",
+                  "url": "teaching-extension.html",
+                  "style": "link"
+                }
+              ],
+              "eyebrow": "",
+              "image": "",
+              "image_alt": "Training & learning"
+            }
+          ],
+          "layout": "grid",
+          "theme": "",
+          "eyebrow": "",
+          "links": []
+        },
+        {
+          "title": "",
+          "body": "<p><strong>Position announcements</strong> · Specific funded vacancies, eligibility requirements, and application deadlines will be posted here when confirmed. An enquiry does not imply that a funded position is available.</p>",
+          "cards": [],
+          "layout": "notice",
+          "theme": "soft",
+          "eyebrow": "",
+          "links": []
+        }
+      ]
+    },
+    {
+      "slug": "team",
+      "title": "Team",
+      "heading": "Our team",
+      "description": "The people behind our research, teaching, and collaboration.",
+      "category": "About / Team",
+      "sections": []
+    },
+    {
+      "slug": "media",
+      "title": "Media",
+      "heading": "Media & stories",
+      "description": "Public features and conversations about our director and the lab’s research.",
+      "category": "About / Media",
+      "sections": [
+        {
+          "title": "",
+          "body": "",
+          "cards": [
+            {
+              "title": "Meet Márcio Nunes",
+              "body": "<p>A UF/IFAS interview introduces his farming background and vision for research and teaching in tropical soils.</p>",
+              "icon": "news",
+              "links": [
+                {
+                  "label": "Read the feature",
+                  "url": "https://blogs.ifas.ufl.edu/swsdept/2022/08/27/featured-new-faculty-marcio-nunes-assistant-professor-of-tropical-soils/",
+                  "style": "link"
+                }
+              ],
+              "eyebrow": "UF/IFAS · August 27, 2022",
+              "image": "",
+              "image_alt": "Meet Márcio Nunes"
+            },
+            {
+              "title": "More from the laboratory",
+              "body": "<p>Find publications, tool features, and website announcements in our News section.</p>",
+              "icon": "globe",
+              "links": [
+                {
+                  "label": "Visit News",
+                  "url": "news.html",
+                  "style": "link"
+                }
+              ],
+              "eyebrow": "",
+              "image": "",
+              "image_alt": "More from the laboratory"
+            }
+          ],
+          "layout": "two-columns",
+          "theme": "",
+          "eyebrow": "",
+          "links": []
+        },
+        {
+          "title": "",
+          "body": "<p>Additional interviews, videos, and external media coverage will be added here.</p>",
+          "cards": [],
+          "layout": "notice",
+          "theme": "",
+          "eyebrow": "",
+          "links": []
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "heading": "Science with roots. Research with purpose.",
+      "description": "Meet the people and ideas behind our work in tropical soil management.",
+      "category": "About",
+      "sections": [
+        {
+          "title": "Soils connect agriculture, ecosystems, and people.",
+          "body": "<p>At the University of Florida, our laboratory brings soil science into the decisions that shape agricultural systems. Our focus spans soil health assessment, sustainable management, and practical digital tools.</p><p>Dr. Márcio R. Nunes directs the laboratory within the Department of Soil, Water, and Ecosystem Sciences, UF/IFAS.</p>",
+          "cards": [],
+          "layout": "intro",
+          "theme": "",
+          "eyebrow": "Our laboratory",
+          "links": []
+        },
+        {
+          "title": "",
+          "body": "",
+          "cards": [
+            {
+              "title": "Our director",
+              "body": "<p>Meet Dr. Márcio R. Nunes and explore his research, education, and academic experience.</p>",
+              "icon": "people",
+              "links": [
+                {
+                  "label": "Read biography",
+                  "url": "biography.html",
+                  "style": "link"
+                }
+              ],
+              "eyebrow": "",
+              "image": "",
+              "image_alt": "Our director"
+            },
+            {
+              "title": "Our team",
+              "body": "<p>Meet our lab manager, postdoctoral researchers, graduate students, and visiting colleagues.</p>",
+              "icon": "globe",
+              "links": [
+                {
+                  "label": "Meet the team",
+                  "url": "team.html",
+                  "style": "link"
+                }
+              ],
+              "eyebrow": "",
+              "image": "",
+              "image_alt": "Our team"
+            },
+            {
+              "title": "Media & News",
+              "body": "<p>Explore lab announcements, research publications, and stories about our work.</p>",
+              "icon": "news",
+              "links": [
+                {
+                  "label": "Read the latest",
+                  "url": "news.html",
+                  "style": "link"
+                }
+              ],
+              "eyebrow": "",
+              "image": "",
+              "image_alt": "Media & News"
+            }
+          ],
+          "layout": "grid",
+          "theme": "soft",
+          "eyebrow": "",
+          "links": []
+        }
+      ]
+    },
+    {
+      "slug": "news",
+      "title": "News",
+      "heading": "Latest News",
+      "description": "Research highlights, publications, and announcements from our laboratory.",
+      "category": "About / News",
+      "sections": []
+    },
+    {
+      "slug": "soil-health-data",
+      "title": "Soil Health Data",
+      "heading": "Soil Health Data",
+      "description": "A developing home for data resources, indicator information, and soil health guidance.",
+      "category": "Research / Soil Health Data",
+      "sections": [
+        {
+          "title": "",
+          "body": "",
+          "cards": [
+            {
+              "title": "Soil indicators",
+              "body": "<p>An introduction to physical, chemical, and biological indicators used to assess soil condition.</p>",
+              "icon": "layers",
+              "links": [
+                {
+                  "label": "Explore indicators",
+                  "url": "gshape.html",
+                  "style": "link"
+                }
+              ],
+              "eyebrow": "",
+              "image": "",
+              "image_alt": "Soil indicators"
+            },
+            {
+              "title": "Assessment frameworks",
+              "body": "<p>Learn how the lab’s web tool brings soil health evaluation frameworks into a common interface.</p>",
+              "icon": "grid",
+              "links": [
+                {
+                  "label": "Explore gSHAPE",
+                  "url": "gshape.html",
+                  "style": "link"
+                }
+              ],
+              "eyebrow": "",
+              "image": "",
+              "image_alt": "Assessment frameworks"
+            },
+            {
+              "title": "Data resources",
+              "body": "<p>Published datasets, accompanying documentation, download links, and reuse conditions will be listed here as they become available.</p>",
+              "icon": "globe",
+              "links": [],
+              "eyebrow": "Resource collection · coming soon",
+              "image": "",
+              "image_alt": "Data resources"
+            }
+          ],
+          "layout": "grid",
+          "theme": "",
+          "eyebrow": "",
+          "links": []
+        },
+        {
+          "title": "",
+          "body": "<p>This section currently provides resource placeholders. No research dataset is available for download from this page yet.</p>",
+          "cards": [],
+          "layout": "notice",
+          "theme": "soft",
+          "eyebrow": "",
+          "links": []
+        }
+      ]
+    },
+    {
+      "slug": "projects",
+      "title": "Research Projects",
+      "heading": "Research for healthier soils.",
+      "description": "Explore our developing project portfolio in soil health and sustainable tropical agriculture.",
+      "category": "Research / Projects",
+      "sections": []
+    },
+    {
+      "slug": "biography",
+      "title": "Biography — Márcio R. Nunes",
+      "heading": "Márcio R. Nunes",
+      "description": "Director of the Sustainable Tropical Soil Management Laboratory · Assistant Professor of Tropical Soils, UF/IFAS.",
+      "category": "About / Biography",
+      "sections": []
+    },
+    {
+      "slug": "gshape",
+      "title": "gSHAPE Tool Guide",
+      "heading": "gSHAPE",
+      "description": "Soil Health Assessment Protocol and Evaluation — a web tool for soil health assessment in context.",
+      "category": "Research / Tools / gSHAPE",
+      "sections": []
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "heading": "Let’s Talk Soil.",
+      "description": "Research questions, collaborations, teaching, and laboratory enquiries.",
+      "category": "Contact",
+      "sections": []
+    },
+    {
+      "slug": "tools",
+      "title": "Tools",
+      "heading": "Tools for soil decisions.",
+      "description": "Research translated into practical resources for soil health assessment.",
+      "category": "Research / Tools",
+      "sections": []
+    },
+    {
+      "slug": "teaching-extension",
+      "title": "Teaching and Extension",
+      "heading": "Teaching & Extension",
+      "description": "Connecting soil science, agricultural management, and hands-on learning.",
+      "category": "Teaching & Extension",
+      "sections": []
+    }
+  ]
+}

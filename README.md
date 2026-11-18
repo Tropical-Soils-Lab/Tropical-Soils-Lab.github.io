@@ -1,30 +1,34 @@
-# Sustainable Tropical Soil Management Lab website
+# Lab website: editing without code
 
-Live website: https://tropical-soils-lab.github.io/
+Live site: https://tropical-soils-lab.github.io/
 
-A plain HTML, CSS, and JavaScript website hosted by GitHub Pages from the main branch.
+## Open the editor
 
-## Pages
+1. Open https://app.pagescms.org/ and sign in with your GitHub account.
+2. Select **Tropical-Soils-Lab → Tropical-Soils-Lab.github.io → main**.
+3. Choose a form from the sidebar. If the repository is missing, an organization owner must approve Pages CMS access to this repository.
 
-Home; About; Biography; Team; Media; News; Research Projects; Publications; Soil Health Data; Tools; gSHAPE Guide; Teaching and Extension; Opportunities; Contact; Credits. News items have their own full article pages.
+## How to add a news item
 
-## Updating content
+1. Open **News & Lab Highlights** and add an item.
+2. Enter a unique slug (e.g. `soil-workshop-2026`), date, category, title, short summary, and article paragraphs.
+3. Optionally upload an image and describe it in **Image alt**. Turn **Published** on, then save.
+4. For a **Lab Highlight**, choose **Highlights**, add an image, and paste the full post link in **LinkedIn URL**.
 
-- Edit `build_site.py` for shared navigation, layout, team members, and page content.
-- Edit `news-content.json` to add news. Each item has a unique slug, ISO date, category, title, summary, paragraphs, source label, and source URL. Keep the list newest first. Use confirmed announcements only.
-- Run `python build_site.py` (Python 3; no third-party packages required).
-- Commit the generator, news content, and generated HTML together. GitHub Pages automatically publishes changes on main.
-- Visual styles are in `assets/site.css`; navigation and news pagination are in `assets/site.js`.
-- The site does not include a form-based content editor yet.
+The homepage shows two regular news items and the newest published highlight. Previous/Next browses regular news. The News page includes all categories and full articles. Dates sort newest first. New articles work immediately without creating an HTML file.
 
-## News behavior
+## How to add a team member
 
-The homepage and News page use the same source. Visitors can browse three cards per page, filter the News page by category, and open full articles with newer/older article navigation. All articles remain available with JavaScript disabled.
+1. Open **Team**, expand the appropriate group, and add a member.
+2. Enter their name and role. Photo, research interests, email, office, and biography are optional.
+3. Save. Reorder members within the group as needed.
 
-## Details to complete
+Other forms cover **Publications, Projects, Courses, Training, Tools, Homepage, Director biography, Page introductions & content, and Site settings & contact**. Images are stored in `/images/`; use the image picker to upload them.
 
-Project 1–3 are clearly marked outlines. Data resources do not offer downloads yet. Editorial appointments require the director's updated CV. Training dates and funded positions are not advertised as available. Team photos and individual biographies can be added later.
+Saving commits the JSON to GitHub. GitHub Pages then republishes automatically, usually within a few minutes. Refresh the live page after deployment completes. No Python, terminal, HTML editing, or manual rebuild is needed for content updates.
 
-## Credits and privacy
+## For developers
 
-See `credits.html` for source and image credits. The agricultural photograph is illustrative, not a lab research site. The gSHAPE screenshot is the actual public interface, without assessment inputs. No analytics, tracking scripts, or contact form are included. Fonts are loaded from Google Fonts with local font fallbacks.
+All editable content is in `/data/*.json`. `/assets/site.js` renders it into content-free HTML route shells. `.pages.yml` defines the editing forms. The site uses browser JavaScript; opening HTML through `file://` will not load JSON, so use an HTTP server for previews. `python build_site.py` only refreshes route shells and legacy article aliases. Existing article links remain supported; new articles use `news.html?article=slug`.
+
+The editor configuration is ready; a lab GitHub administrator must complete the one-time Pages CMS sign-in/installation. Only authorized repository editors can save changes. Use confirmed, public information in published content. See the Credits page for source and image acknowledgments.

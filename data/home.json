@@ -1,0 +1,72 @@
+{
+  "title": "Home",
+  "description": "Sustainable Tropical Soil Management Lab at the University of Florida: research, teaching, and tools for healthier tropical soils.",
+  "hero": {
+    "eyebrow": "Science rooted in the tropics",
+    "title": "Healthy soils.",
+    "accent": "A sustainable future.",
+    "description": "Understanding tropical soils to support productive agriculture, healthy ecosystems, and better lives.",
+    "image": "/images/fields.jpg",
+    "image_alt": "Aerial view of a green agricultural field",
+    "credit": "Agricultural landscape · Photo: Daniel Boberg / Unsplash",
+    "actions": [
+      {
+        "label": "Discover our research",
+        "url": "projects.html",
+        "style": "button light"
+      },
+      {
+        "label": "Launch gSHAPE",
+        "url": "https://gshape-web.streamlit.app/",
+        "style": "button white"
+      }
+    ],
+    "director_link": {
+      "label": "Meet our director",
+      "url": "biography.html",
+      "style": "link-arrow horizontal"
+    }
+  },
+  "themes": [
+    "Soil Health",
+    "Sustainable Agriculture"
+  ],
+  "activities": [
+    "Research",
+    "Teaching",
+    "Extension"
+  ],
+  "mission": {
+    "eyebrow": "Our mission",
+    "title": "Better decisions begin beneath our feet.",
+    "body": "We connect soil processes with practical management to help sustain food production and protect natural resources in tropical agricultural systems.",
+    "leader_prefix": "Led by"
+  },
+  "tool": {
+    "eyebrow": "Tools & innovations",
+    "title": "Soil health. In context. Online.",
+    "body": "Meet gSHAPE, our web tool for context-specific soil health assessment and benchmarking.",
+    "tool_id": "gshape",
+    "actions": [
+      {
+        "label": "Explore gSHAPE",
+        "url": "gshape.html",
+        "style": "button light"
+      },
+      {
+        "label": "Open the app",
+        "url": "https://gshape-web.streamlit.app/",
+        "style": "link-arrow"
+      }
+    ]
+  },
+  "news": {
+    "eyebrow": "From the lab",
+    "title": "Latest News",
+    "all_link": {
+      "label": "All news & updates",
+      "url": "news.html",
+      "style": "link"
+    }
+  }
+}

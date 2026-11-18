@@ -1,0 +1,78 @@
+{
+  "photo": "/images/marcio-nunes.svg",
+  "photo_alt": "Professor Márcio R. Nunes",
+  "eyebrow": "Lab director",
+  "title": "From a family farm to soil science.",
+  "themes": "Research · Teaching · Soil health",
+  "body": "<p>Raised on a farm in southern Brazil, Márcio brings agricultural experience to research on soil management in tropical and temperate environments. His work connects soil health assessment with agricultural productivity and natural resource stewardship.</p>",
+  "profile_links": [
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=fVVsZKgAAAAJ&hl=en",
+      "style": "link"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0000-0002-3674-279X",
+      "style": "link"
+    },
+    {
+      "label": "UF faculty profile",
+      "url": "https://soils.ifas.ufl.edu/people/faculty/marcio-nunes/",
+      "style": "link"
+    }
+  ],
+  "career_eyebrow": "Career",
+  "employment_title": "Employment Experience",
+  "employment": [
+    {
+      "date": "2022 – PRESENT",
+      "title": "University of Florida",
+      "body": "<p>Assistant Professor of Tropical Soils. Department of Soil, Water, and Ecosystem Sciences.</p>"
+    },
+    {
+      "date": "PRIOR TO UF · FOUR YEARS",
+      "title": "USDA Agricultural Research Service",
+      "body": "<p>Research on soil health and management.</p>"
+    }
+  ],
+  "academic_title": "Academic Experience",
+  "academic_body": "<p>Doctoral research at Cornell University during 2017–2018, followed by research and teaching at UF.</p>",
+  "teaching_link": {
+    "label": "Explore teaching & extension",
+    "url": "teaching-extension.html",
+    "style": "link"
+  },
+  "education_title": "Education",
+  "education": [
+    {
+      "date": "",
+      "title": "Ph.D. · Soils and Plant Nutrition",
+      "body": "<p>University of São Paulo, Brazil.</p>"
+    },
+    {
+      "date": "",
+      "title": "M.S. · Soils and Water Management",
+      "body": "<p>Federal University of Pelotas, Brazil.</p>"
+    },
+    {
+      "date": "2012",
+      "title": "B.S. · Agronomy",
+      "body": "<p>Federal University of Pelotas, Brazil.</p>"
+    }
+  ],
+  "source_link": {
+    "label": "Career and education: UF/IFAS faculty feature",
+    "url": "https://blogs.ifas.ufl.edu/swsdept/2022/08/27/featured-new-faculty-marcio-nunes-assistant-professor-of-tropical-soils/",
+    "style": "link"
+  },
+  "achievements_title": "Professional Achievements",
+  "achievements_body": "<p>His research portfolio includes the development of SHAPE soil health scoring and benchmarking approaches, with applications to soil organic carbon and other dynamic indicators.</p>",
+  "publications_link": {
+    "label": "Selected research publications",
+    "url": "publications.html",
+    "style": "link"
+  },
+  "editorial_title": "Editorial Activities",
+  "editorial_body": "<p>A detailed list of editorial appointments and professional service will be added from the director’s updated CV.</p>"
+}

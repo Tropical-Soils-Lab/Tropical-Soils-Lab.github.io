@@ -1,0 +1,21 @@
+{
+  "eyebrow": "Courses with Dr. Márcio R. Nunes",
+  "title": "From understanding to application.",
+  "introduction": "Course information is based on the director’s UF faculty listing. Scheduling and enrollment are confirmed through UF.",
+  "items": [
+    {
+      "code": "SWS5132",
+      "title": "Tropical Soil Management",
+      "description": "Explore tropical soils and the management decisions that support productive and sustainable agriculture.",
+      "icon": "globe",
+      "url": "https://soils.ifas.ufl.edu/people/faculty/marcio-nunes/"
+    },
+    {
+      "code": "SWS4207 / SWS5208",
+      "title": "Sustainable Agricultural and Urban Land Management",
+      "description": "Study land management in agricultural and urban settings through the lens of sustainability.",
+      "icon": "leaf",
+      "url": "https://soils.ifas.ufl.edu/people/faculty/marcio-nunes/"
+    }
+  ]
+}

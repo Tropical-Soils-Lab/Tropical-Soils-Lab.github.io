@@ -1,0 +1,38 @@
+{
+  "note": "Project outlines · These are placeholders for the lab’s project descriptions. Collaborators, duration, funding, and impact will be added with the project details.",
+  "items": [
+    {
+      "title": "Project 1",
+      "theme": "Context-aware soil health",
+      "description": "A placeholder for research on interpreting soil health indicators in relation to soil properties, climate, and land use.",
+      "placeholder": true,
+      "image": "",
+      "collaborators": "",
+      "duration": "",
+      "funding": "",
+      "impact": ""
+    },
+    {
+      "title": "Project 2",
+      "theme": "Sustainable soil management",
+      "description": "A placeholder for research on agricultural practices, soil functions, and long-term soil stewardship.",
+      "placeholder": true,
+      "image": "",
+      "collaborators": "",
+      "duration": "",
+      "funding": "",
+      "impact": ""
+    },
+    {
+      "title": "Project 3",
+      "theme": "Digital tools and soil information",
+      "description": "A placeholder for research on soil observations, mapping, and decision-support resources.",
+      "placeholder": true,
+      "image": "",
+      "collaborators": "",
+      "duration": "",
+      "funding": "",
+      "impact": ""
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "note": "Individual photos, research interests, projects, and contact profiles will be added as they become available.",
+  "groups": [
+    {
+      "title": "Director",
+      "members": [
+        {
+          "name": "Márcio R. Nunes",
+          "role": "Director",
+          "title": "Director of the Sustainable Tropical Soil Management Laboratory",
+          "photo": "/images/marcio-nunes.jpg",
+          "photo_alt": "Márcio R. Nunes",
+          "research_interests": "",
+          "email": "",
+          "office": "",
+          "biography": "",
+          "current_projects": "",
+          "profile_url": "biography.html"
+        }
+      ]
+    },
+    {
+      "title": "Lab Manager",
+      "members": [
+        {
+          "name": "Diego Arruda Huggins De Sa Leitao",
+          "role": "Lab Manager",
+          "title": "",
+          "photo": "",
+          "photo_alt": "Diego Arruda Huggins De Sa Leitao",
+          "research_interests": "",
+          "email": "",
+          "office": "",
+          "biography": "",
+          "current_projects": "",
+          "profile_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Postdoctoral Researchers",
+      "members": [
+        {
+          "name": "Camila P. Cagna",
+          "role": "Postdoctoral Researcher",
+          "title": "",
+          "photo": "",
+          "photo_alt": "Camila P. Cagna",
+          "research_interests": "",
+          "email": "",
+          "office": "",
+          "biography": "",
+          "current_projects": "",
+          "profile_url": ""
+        },
+        {
+          "name": "Pedro Antônio Namorato Benevenute",
+          "role": "Postdoctoral Researcher",
+          "title": "",
+          "photo": "",
+          "photo_alt": "Pedro Antônio Namorato Benevenute",
+          "research_interests": "",
+          "email": "",
+          "office": "",
+          "biography": "",
+          "current_projects": "",
+          "profile_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Graduate Students",
+      "members": [
+        {
+          "name": "Mohkam Singh",
+          "role": "Graduate Student",
+          "title": "",
+          "photo": "",
+          "photo_alt": "Mohkam Singh",
+          "research_interests": "",
+          "email": "",
+          "office": "",
+          "biography": "",
+          "current_projects": "",
+          "profile_url": ""
+        },
+        {
+          "name": "Moges Kidane Biru",
+          "role": "Graduate Student",
+          "title": "",
+          "photo": "",
+          "photo_alt": "Moges Kidane Biru",
+          "research_interests": "",
+          "email": "",
+          "office": "",
+          "biography": "",
+          "current_projects": "",
+          "profile_url": ""
+        },
+        {
+          "name": "Olanrewaju H. Ologunde",
+          "role": "Graduate Student",
+          "title": "",
+          "photo": "",
+          "photo_alt": "Olanrewaju H. Ologunde",
+          "research_interests": "",
+          "email": "",
+          "office": "",
+          "biography": "",
+          "current_projects": "",
+          "profile_url": ""
+        },
+        {
+          "name": "Renan Pedro Becker",
+          "role": "Graduate Student",
+          "title": "",
+          "photo": "",
+          "photo_alt": "Renan Pedro Becker",
+          "research_interests": "",
+          "email": "",
+          "office": "",
+          "biography": "",
+          "current_projects": "",
+          "profile_url": ""
+        },
+        {
+          "name": "Glauco Mariano Teixeira Junior",
+          "role": "Graduate Student",
+          "title": "",
+          "photo": "",
+          "photo_alt": "Glauco Mariano Teixeira Junior",
+          "research_interests": "",
+          "email": "",
+          "office": "",
+          "biography": "",
+          "current_projects": "",
+          "profile_url": ""
+        },
+        {
+          "name": "Labake O. Agunbiade",
+          "role": "Graduate Student",
+          "title": "",
+          "photo": "",
+          "photo_alt": "Labake O. Agunbiade",
+          "research_interests": "",
+          "email": "",
+          "office": "",
+          "biography": "",
+          "current_projects": "",
+          "profile_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Visiting Scholars",
+      "members": [
+        {
+          "name": "João Pedro Balbinot Meoti",
+          "role": "Visiting Scholar",
+          "title": "",
+          "photo": "",
+          "photo_alt": "João Pedro Balbinot Meoti",
+          "research_interests": "",
+          "email": "",
+          "office": "",
+          "biography": "",
+          "current_projects": "",
+          "profile_url": ""
+        },
+        {
+          "name": "Antonio Azevedo Batista",
+          "role": "Visiting Scholar",
+          "title": "",
+          "photo": "",
+          "photo_alt": "Antonio Azevedo Batista",
+          "research_interests": "",
+          "email": "",
+          "office": "",
+          "biography": "",
+          "current_projects": "",
+          "profile_url": ""
+        }
+      ]
+    },
+    {
+      "title": "Visiting Professor",
+      "members": [
+        {
+          "name": "Luiz Roberto Guimarães Guilher",
+          "role": "Visiting Professor",
+          "title": "",
+          "photo": "",
+          "photo_alt": "Luiz Roberto Guimarães Guilher",
+          "research_interests": "",
+          "email": "",
+          "office": "",
+          "biography": "",
+          "current_projects": "",
+          "profile_url": ""
+        }
+      ]
+    }
+  ]
+}

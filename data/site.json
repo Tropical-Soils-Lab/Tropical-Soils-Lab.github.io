@@ -1,0 +1,194 @@
+{
+  "lab_name": "Sustainable Tropical Soil Management Laboratory",
+  "short_name": "Sustainable Tropical Soil Management Lab",
+  "university": "University of Florida | UF/IFAS",
+  "department": "Soil, Water, and Ecosystem Sciences",
+  "department_url": "https://soils.ifas.ufl.edu/",
+  "director": "Dr. Márcio R. Nunes",
+  "director_title": "Director of the Sustainable Tropical Soil Management Laboratory",
+  "email": "marcionunes@ufl.edu",
+  "phone": "+1 (352) 294-3127",
+  "phone_url": "tel:+13522943127",
+  "office": "G169 McCarty Hall A",
+  "address": [
+    "2181 McCarty Hall, PO Box 110290",
+    "Gainesville, FL 32611"
+  ],
+  "location": "Gainesville, Florida, USA",
+  "faculty_url": "https://soils.ifas.ufl.edu/people/faculty/marcio-nunes/",
+  "scholar_url": "https://scholar.google.com/citations?user=fVVsZKgAAAAJ&hl=en",
+  "orcid_url": "https://orcid.org/0000-0002-3674-279X",
+  "app_url": "https://gshape-web.streamlit.app/",
+  "navigation": [
+    {
+      "label": "Home",
+      "url": "index.html",
+      "children": []
+    },
+    {
+      "label": "About",
+      "url": "about.html",
+      "children": [
+        {
+          "label": "Overview",
+          "url": "about.html",
+          "style": "link"
+        },
+        {
+          "label": "Biography",
+          "url": "biography.html",
+          "style": "link"
+        },
+        {
+          "label": "Team",
+          "url": "team.html",
+          "style": "link"
+        },
+        {
+          "label": "Media",
+          "url": "media.html",
+          "style": "link"
+        },
+        {
+          "label": "News",
+          "url": "news.html",
+          "style": "link"
+        }
+      ]
+    },
+    {
+      "label": "Research",
+      "url": "projects.html",
+      "children": [
+        {
+          "label": "Projects",
+          "url": "projects.html",
+          "style": "link"
+        },
+        {
+          "label": "Publications",
+          "url": "publications.html",
+          "style": "link"
+        },
+        {
+          "label": "Soil Health Data",
+          "url": "soil-health-data.html",
+          "style": "link"
+        },
+        {
+          "label": "Tools",
+          "url": "tools.html",
+          "style": "link"
+        }
+      ]
+    },
+    {
+      "label": "Teaching & Extension",
+      "url": "teaching-extension.html",
+      "children": []
+    },
+    {
+      "label": "Opportunities",
+      "url": "opportunities.html",
+      "children": []
+    },
+    {
+      "label": "Contact",
+      "url": "contact.html",
+      "children": []
+    }
+  ],
+  "footer_links": [
+    {
+      "label": "Our director",
+      "url": "biography.html",
+      "style": "link"
+    },
+    {
+      "label": "Team",
+      "url": "team.html",
+      "style": "link"
+    },
+    {
+      "label": "Tools",
+      "url": "tools.html",
+      "style": "link"
+    },
+    {
+      "label": "News",
+      "url": "news.html",
+      "style": "link"
+    },
+    {
+      "label": "Contact",
+      "url": "contact.html",
+      "style": "link"
+    }
+  ],
+  "legal_links": [
+    {
+      "label": "Accessibility",
+      "url": "https://accessibility.ufl.edu/",
+      "style": "link"
+    },
+    {
+      "label": "Privacy",
+      "url": "https://privacy.ufl.edu/",
+      "style": "link"
+    },
+    {
+      "label": "Image & content credits",
+      "url": "credits.html",
+      "style": "link"
+    }
+  ],
+  "contact": {
+    "eyebrow": "Get in touch",
+    "title": "Let’s Talk Soil.",
+    "body": "Have a research question or an idea for collaboration? Connect with Dr. Márcio R. Nunes.",
+    "details_label": "Contact & location details",
+    "office_label": "Office",
+    "address_label": "Mailing address",
+    "faculty_label": "UF faculty contact record",
+    "location_label": "Our location",
+    "department_label": "Visit the department"
+  },
+  "labels": {
+    "skip": "Skip to content",
+    "menu": "Menu",
+    "navigation": "Main navigation",
+    "find_us": "Find us",
+    "explore": "Explore",
+    "directed_by": "Directed by",
+    "read_article": "Read article",
+    "lab_highlight": "Lab Highlight",
+    "linkedin": "View on LinkedIn",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "of": "of",
+    "all": "All",
+    "news": "News",
+    "no_news": "No announcements in this category yet.",
+    "back_news": "Back to all news",
+    "newer": "Newer article",
+    "older": "Older article",
+    "article_navigation": "Article navigation",
+    "filter_news": "Filter news",
+    "read_paper": "Read paper",
+    "scholar": "Google Scholar",
+    "biography": "Biography & research",
+    "leadership": "Laboratory leadership",
+    "project_outline": "Project outline · placeholder",
+    "collaborators": "Collaborators",
+    "duration": "Duration",
+    "funding": "Funding",
+    "impact": "Impact",
+    "to_add": "To be added",
+    "site_error": "The site content could not be loaded. Please refresh the page.",
+    "missing_article": "This article is no longer available.",
+    "copyright": "© 2026",
+    "source": "Source",
+    "course_information": "UF course information"
+  }
+}

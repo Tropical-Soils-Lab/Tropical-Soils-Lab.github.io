@@ -1,0 +1,68 @@
+{
+  "note": "Additional laboratory tools will appear here as they become available.",
+  "items": [
+    {
+      "id": "gshape",
+      "name": "gSHAPE",
+      "tagline": "Soil Health Assessment Protocol and Evaluation",
+      "description": "A web tool for context-specific soil health assessment and benchmarking.",
+      "url": "https://gshape-web.streamlit.app/",
+      "guide_url": "gshape.html",
+      "guide_label": "Tool guide",
+      "launch_label": "Launch gSHAPE",
+      "image": "/images/gshape-interface.jpg",
+      "image_alt": "gSHAPE interface with location, evaluation framework, and soil indicator selections",
+      "eyebrow": "Why it was developed",
+      "heading": "Make soil measurements more meaningful.",
+      "paragraphs": [
+        "A soil measurement needs context. gSHAPE offers a browser interface for exploring evaluation frameworks and measured indicators alongside the location and inputs relevant to the selected assessment.",
+        "It brings physical, chemical, and biological indicators into one place for soil health assessment and benchmarking."
+      ],
+      "steps_eyebrow": "Getting started",
+      "steps_title": "How to use gSHAPE",
+      "steps_introduction": "Use your measured data. Follow the tool’s field labels and units for the selected framework.",
+      "steps": [
+        {
+          "title": "Set the location",
+          "description": "Choose the country and complete any location fields requested by the tool."
+        },
+        {
+          "title": "Select a framework",
+          "description": "Choose an available evaluation framework appropriate to your assessment."
+        },
+        {
+          "title": "Choose indicators",
+          "description": "Select the soil indicators you have measured, then enter the requested values and units."
+        },
+        {
+          "title": "Review the assessment",
+          "description": "Explore the scores and guidance shown by the tool. Interpret them within your soil and management context."
+        }
+      ],
+      "interface_eyebrow": "A look inside",
+      "interface_title": "The assessment interface",
+      "interface_description": "The live app lets you choose a location, evaluation framework, and target soil health indicators.",
+      "caption": "gSHAPE start screen, captured November 17, 2026. This is an interface example, not a soil assessment result.",
+      "indicators": [
+        {
+          "title": "Physical indicators",
+          "description": "Examples in the interface include bulk density, macroaggregate stability, and available water capacity.",
+          "icon": "layers",
+          "link_label": "Explore the tool"
+        },
+        {
+          "title": "Chemical indicators",
+          "description": "Examples include pH, soil phosphorus, extractable potassium, and electrical conductivity.",
+          "icon": "flask",
+          "link_label": "Explore the tool"
+        },
+        {
+          "title": "Biological indicators",
+          "description": "Examples include soil organic carbon, potentially mineralizable nitrogen, and microbial biomass carbon.",
+          "icon": "leaf",
+          "link_label": "Explore the tool"
+        }
+      ]
+    }
+  ]
+}
